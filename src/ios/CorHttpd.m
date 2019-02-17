@@ -9,6 +9,7 @@
 #import "DDLog.h"
 #import "DDTTYLogger.h"
 #import "HTTPServer.h"
+#import "MyHTTPConnection.h"
 
 @interface CorHttpd : CDVPlugin {
     // Member variables go here.
