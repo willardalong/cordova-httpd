@@ -166,7 +166,8 @@
     }
     NSLog(@"Setting document root: %@", self.localPath);
     [self.httpServer setDocumentRoot:self.localPath];
-
+    [self.httpServer setConnectionClass:[MyHTTPConnection class]];	
+	
 	NSError *error;
 	if([self.httpServer start:&error]) {
         int listenPort = [self.httpServer listeningPort];
