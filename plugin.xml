@@ -51,7 +51,9 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 </config-file>
 
 <source-file src="src/ios/CorHttpd.m" />
-
+<source-file src="src/ios/MyHTTPConnection.m" />
+<header-file src="src/ios/MyHTTPConnection.h" />
+    
 <header-file src="src/ios/CocoaHttpd/HTTPLogging.h" />
 <header-file src="src/ios/CocoaHttpd/HTTPServer.h" />
 <source-file src="src/ios/CocoaHttpd/HTTPServer.m" />
